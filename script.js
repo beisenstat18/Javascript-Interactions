@@ -21,10 +21,13 @@ function getWeather(){
   var selectedSeason= Math.floor(Math.random ()* season.length);
   var seasonInputText = dateInput.value;
   fortuneOutput.innerHTML = season[selectedSeason];
-  restyle();
 }
 
 function restyle(){
-  fortuneOutput.style.textalign(center);
-  fortuneOutput.style.textsize(5);
+  fortuneOutput.style.textAlign=("center");
+  fortuneOutput.style.textSize=("5");
+  weatherButton.style.backgroundColor = ("#000000");
+  numberButton.style.backgroundColor = ("#000000");
+
 }
+    restyle();
