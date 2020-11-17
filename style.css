@@ -1,0 +1,49 @@
+body{
+  margin: 5vw 5vw 0px 5vw;
+  padding: 0px;
+  background-color: black;
+  color:white;
+  font-family: 'Goldman', cursive;
+}
+
+  #title {
+  display: flex;
+  justify-content: center;
+  font-size: 7vmin;
+  }
+
+  #picture {
+    display: flex;
+    justify-content: center;
+  }
+  #picture img{
+    width:100vmin;
+    height: auto;
+  }
+#main, #seasonTitle{
+  padding-right: 3vmin;
+}
+.firsthalf, .secondhalf{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 3vmin;
+}
+.divsarefun{
+  padding-right: 5vmin;
+}
+
+#numberButton, #weatherButton{
+  font-family: 'Goldman', cursive;
+  color: white;
+  background-color: black;
+}
+
+#fortune-output{
+  display: flex;
+  justify-content: center;
+  font-size: 3vmin;
+  padding-left: 6vmin;
+  line-height: 6vmin;
+}
